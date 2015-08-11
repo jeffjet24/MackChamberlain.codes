@@ -10,6 +10,10 @@
   display: inline;
 }
 
+.GitHubLogo img:hover{
+  content: url('../../images/GitHub/PNG/GitHub-Mark-light-32px.png');
+}
+
 .jumbotron {
   background-image:url('../../images/BinCloud.png');
   height: 500px;
