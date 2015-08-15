@@ -1,3 +1,7 @@
+
+.nav {
+  padding-top: 10px;
+}
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -9,13 +13,22 @@
 .nav li {
   display: inline;
 }
-
-.GitHubLogo img:hover{
-  content: url('../../images/GitHub/PNG/GitHub-Mark-light-32px.png');
+.nav .pull-right li {
+  display: inline;
+  float: left;
 }
 
+.GitHubLogo img:hover{
+  content: url('../../images/GitHub/PNG/GitHubBlue32px.png');
+}
+.LinkedInLogo img:hover{
+  content: url('../../images/LinkedIn/In-2C-34px-R-Teal.png');
+}
+
+.EmailLogo img:hover{
+  content: url('../../images/emailBlue.png');
+}
 .jumbotron {
-  background-image:url('../../images/BinCloud.png');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,15 +40,15 @@
 }
 
 .jumbotron h1 {
-  color: #fff;
-  font-size: 48px;  
+  color: #46BCE3;
+  font-size: 48px;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
 
 .jumbotron p {
   font-size: 20px;
-  color: #fff;
+  color: #46BCE3;
 }
 
 .middle {
@@ -57,6 +70,9 @@
   background-color: #f7f7f7;
 }
 
+.learn-more h2{
+    font-size: 24px;
+}
 .learn-more h3 {
   font-family: 'Shift', sans-serif;
   font-size: 18px;
