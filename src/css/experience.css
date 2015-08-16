@@ -8,7 +8,6 @@
 .jumbotron .container {
   position: relative;
   top: 55%;
-  left: -5%;
 }
 .jumbotron .contBG{
   /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
