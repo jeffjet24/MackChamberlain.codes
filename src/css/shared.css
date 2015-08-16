@@ -1,0 +1,50 @@
+.nav {
+  padding-top: 10px;
+}
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+.nav .pull-right li {
+  display: inline;
+  float: left;
+}
+
+.GitHubLogo img:hover{
+  content: url('../../images/GitHub/PNG/GithubBlue32px.png');
+}
+.LinkedInLogo img:hover{
+  content: url('../../images/LinkedIn/In-2C-34px-R-Teal.png');
+}
+
+.EmailLogo img:hover{
+  content: url('../../images/emailBlue.png');
+}
+.ResumeLogo img:hover{
+  content: url('../../images/resume32Blue.png');
+}
+
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h2{
+    font-size: 24px;
+}
+.learn-more h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
