@@ -1,0 +1,86 @@
+
+.nav {
+  padding-top: 10px;
+}
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+.nav .pull-right li {
+  display: inline;
+  float: left;
+}
+
+.GitHubLogo img:hover{
+  content: url('../../images/GitHub/PNG/GithubBlue32px.png');
+}
+.LinkedInLogo img:hover{
+  content: url('../../images/LinkedIn/In-2C-34px-R-Teal.png');
+}
+
+.EmailLogo img:hover{
+  content: url('../../images/emailBlue.png');
+}
+.jumbotron {
+  height: 500px;
+  background-image:url('../../images/squares.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+  left: -10%;
+}
+
+.jumbotron h1 {
+  color: #46BCE3;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #46BCE3;
+}
+
+.middle {
+    background-color:#efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.middle h2{
+    color:#393c3d;
+    font-size: 24px;
+}
+
+.middle p{
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h2{
+    font-size: 24px;
+}
+.learn-more h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
