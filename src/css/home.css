@@ -1,8 +1,10 @@
 .jumbotron {
   height: 500px;
-  background-image:url('../../images/squares.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background:url('../../images/squares.png') no-repeat center center;
+  /* Code to keep the image centered */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .jumbotron .container {
