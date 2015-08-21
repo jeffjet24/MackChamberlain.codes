@@ -12,6 +12,13 @@
   top:50%;
 }
 
+.jumbotron .content{
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  padding: 20px;
+  background: rgb(34,34,34); /* for IE */
+  background: rgba(34,34,34,0.75);
+}
 .jumbotron h1 {
   color: #46BCE3;
   font-size: 48px;

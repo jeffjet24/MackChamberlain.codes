@@ -12,7 +12,7 @@
   top: 55%;
 }
 .jumbotron .contBG{
-  background:url('../../images/bookscopy.jpg') no-repeat center center;
+  /*background:url('../../images/bookscopy.jpg') no-repeat center center;*/
   /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
   position: absolute;
   top: 0px;
