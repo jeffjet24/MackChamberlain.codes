@@ -1,4 +1,4 @@
-.jumbotron {
+.jumbotron{
   height: 500px;
   background:url('../../images/bookscopy.jpg') no-repeat center center;
   /* Code to keep the image centered */
@@ -12,27 +12,29 @@
   top: 55%;
 }
 .jumbotron .contBG{
+  background:url('../../images/bookscopy.jpg') no-repeat center center;
   /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
-  left: 0px;
-  z-index: 99;
+  left: 20px;
 
   /* Pull the background 70px higher to the same place as #bg's */
   background-position: center -70px;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
+
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
 }
 .jumbotron .content{
+  /* Put this on top of the blurred layer */
+  position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   padding: 20px;
   background: rgb(34,34,34); /* for IE */
   background: rgba(34,34,34,0.75);
+
 }
 .jumbotron h1 {
   color: #7EFFCE;
