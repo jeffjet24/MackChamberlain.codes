@@ -1,10 +1,10 @@
 .jumbotron {
-  height: 500px;
-  background:url('../../images/bookscopy.jpg') no-repeat center center;
-  /* Code to keep the image centered */
+  height: 100px;
+  /*background:url('../../images/bookscopy.jpg') no-repeat center center;
+  Code to keep the image centered
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover;*/
 }
 
 .jumbotron .container {
@@ -48,16 +48,34 @@
 }
 
 .middle {
-    background-color:#efefef;
-    border-bottom: 1px solid #dbdbdb;
+  background-color:#efefef;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 .middle h2{
-    color:#393c3d;
-    font-size: 24px;
+  color:#393c3d;
+  font-size: 24px;
 }
 
 .middle p{
-    font-size: 15px;
-    margin-bottom: 13px;
+  font-size: 15px;
+  margin-bottom: 13px;
+  vertical-align: middle;
+}
+.middle h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.middle .container{
+  margin-top: 10px;
+
+}
+.middle img{
+  vertical-align: middle;
+}
+.middle article{
+  margin-bottom: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
 }
