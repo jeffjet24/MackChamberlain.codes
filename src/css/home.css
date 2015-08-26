@@ -9,7 +9,7 @@
 
 .jumbotron .container {
   position: relative;
-  top:50%;
+  top:30%;
 }
 
 .jumbotron .content{
@@ -40,8 +40,19 @@
     color:#393c3d;
     font-size: 24px;
 }
-
-.middle p{
+.middle h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.middle p {
     font-size: 15px;
     margin-bottom: 13px;
+}
+.middle article{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-bottom: 13px;
+}
+.middle .invisHeader{
+    visibility: hidden;
 }
