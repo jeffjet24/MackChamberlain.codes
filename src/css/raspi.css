@@ -1,0 +1,81 @@
+.jumbotron {
+  height: 100px;
+  /*background:url('../../images/bookscopy.jpg') no-repeat center center;
+  Code to keep the image centered
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 55%;
+}
+.jumbotron .contBG{
+  /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 99;
+
+  /* Pull the background 70px higher to the same place as #bg's */
+  background-position: center -70px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+.jumbotron .content{
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  padding: 20px;
+  background: rgb(34,34,34); /* for IE */
+  background: rgba(34,34,34,0.75);
+}
+.jumbotron h1 {
+  color: #006F69;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #006F69;
+
+}
+
+.middle {
+  background-color:#efefef;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.middle h2{
+  color:#393c3d;
+  font-size: 24px;
+}
+
+.middle p{
+  font-size: 15px;
+  margin-bottom: 13px;
+  vertical-align: middle;
+}
+.middle h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.middle .container{
+  margin-top: 10px;
+
+}
+.middle img{
+  vertical-align: middle;
+}
+.middle article{
+  margin-bottom: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
