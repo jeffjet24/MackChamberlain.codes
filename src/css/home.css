@@ -9,16 +9,9 @@
 
 .jumbotron .container {
   position: relative;
-  top:30%;
+  top: 30%;
 }
 
-.jumbotron .content{
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  padding: 10px;
-  background: rgb(34,34,34); /* for IE */
-  background: rgba(34,34,34,0.75);
-}
 .jumbotron h1 {
   color: #46BCE3;
   font-size: 48px;
@@ -31,28 +24,10 @@
   color: #46BCE3;
 }
 
-.middle {
-    background-color:#efefef;
-    border-bottom: 1px solid #dbdbdb;
-}
-
-.middle h2{
-    color:#393c3d;
-    font-size: 24px;
-}
 .middle h3{
-  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
-.middle p {
-    font-size: 15px;
-    margin-bottom: 13px;
-}
-.middle article{
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  margin-bottom: 13px;
-}
+
 .middle .invisHeader{
     visibility: hidden;
 }

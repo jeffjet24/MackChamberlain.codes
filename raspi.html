@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="src/css/shared.css">
     <link rel="stylesheet" href="src/css/raspi.css">
     <title>Raspberry Pi Projects</title>
-    <meta name="description" content="">
+    <meta name="description" content="This Page describes the Raspberry
+    Pi Projects that Mack Chamberlain has worked on in his spare time.">
   </head>
   <body>
     <div class="nav">
@@ -55,49 +56,55 @@
       </div>
     </div>
 
-
     <div class="middle">
       <div class="container">
         <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-5">
-            <p>
-              <div class="thumbnail">
-                <img src="images/Mack.jpg" alt="Photo of Mack">
-              </div>
-            </p>
-          </div>
-          <div class="col-md-5">
-            <h3>Hi! I'm Mack.</h3>
+          <div class="col-md-2"></div>
+
+          <div class="col-md-8">
+            <h1>Raspberry Pi Work</h1>
             <article>
-              For my entire life, I have been a tinkerer. From taking my electronics apart out
-              of curiousity to adding watercooling to my desktop computer to make
-              it faster. That is only part of me. The other part of me loves to
-              solve problems and find solutions for seemingly impossible challenges.
+              Ever since the Raspberry Pi became easily accessible for the public,
+              I had been interested and tinkering with them. I have used my
+              Raspberry Pi for a wide range of projects. From running a little
+              web server, to my latest project, creating a car data logging system.
               <br>
-              Combining those two sides of me, you have a problem solver that loves
-              to get his hands dirty. Then throw in computers, then you have me! I
-              enjoy working on computers, creating solutions to issues in my everyday
-              life.
+              I think the Raspberry Pi has really peaked my interest because it is
+              something that I can work with hands on, and apply my software
+              development experience to. Another reason why it had peaked my
+              interest (and for many others as well), was because it was cheap
+              and affordable for a college student like me.
               <br>
-              I started programming in Middle School, and started building computers
-              in High School. In high school I decided that I would like to major in
-              Computer Science, as I enjoyed programming and designing software solutions.
-              I am now in my senior year in college at the Univeristy of Minnesota,
-              and I always find some time to code each day. I enjoy seeing my projects
-              completed as they improve everyday life for either myself or others.
+              Alright, enough about why I like Raspberry Pi's, onto my projects!
             </article>
           </div>
         </div>
         <div class="row">
           <div class="col-md-2"></div>
           <div class="col-md-8">
-          <article>
-            Want to get to know me more? Feel free to contact me at
-            <a href="mailto:mackchamberlain@gmail.com?Subject=Hello!">
-              MackChamberlain@gmail.com
-            </a>
-          </article>
+            <h2>Raspberry Pi Car Data Logger</h2>
+            <article>
+              Alright, This project is probably my biggest project undertaken
+              with a Raspberry Pi, and I am working to develop a data logger for
+              my car. The project is still in progress, and is not done yet, so I
+              am going to put what I have done so far here.
+            </article>
+
+            <h3>Plan</h3>
+            <article>
+              My idea was to use a Raspberry Pi to read engine data from my car,
+              and store it in a time series data format. I could then use my
+              experience with R and Shiny to create a web application on a server
+              to plot and display that data. This would allow me to see trends in my
+              vehicle's temps, transmission, fuel efficiency, speed, and
+              overall health.
+              <br>
+              I decided to use OBD to read those sensors from the engine. When most
+              people think of OBD, they think Check Engine Light. That is the most
+              common use of OBD, what it was intended to do, diagnose problems.
+              However, all cars can also provide engine sensor data over the OBD
+              interface as well. 
+            </article>
           </div>
         </div>
       </div>

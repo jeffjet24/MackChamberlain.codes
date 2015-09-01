@@ -18,7 +18,6 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  z-index: 99;
 
   /* Pull the background 70px higher to the same place as #bg's */
   background-position: center -70px;
@@ -77,5 +76,5 @@
 .middle article{
   margin-bottom: 13px;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
 }
