@@ -102,9 +102,102 @@
               I decided to use OBD to read those sensors from the engine. When most
               people think of OBD, they think Check Engine Light. That is the most
               common use of OBD, what it was intended to do, diagnose problems.
-              However, all cars can also provide engine sensor data over the OBD
-              interface as well. 
+              However, all cars can also provide some engine sensor data over the OBD
+              interface as well. Each car varies in what they can provide of course.
+              My hopes are that I can at the very least get the following from my car:
+              <ul>
+                <li>Engine RPM</li>
+                <li>Engine Temp</li>
+                <li>Engine Load</li>
+                <li>Speed</li>
+                <li>Fuel Status</li>
+              </ul>
+              That's not a lot, is it? I don't think so, but it will give me a good
+              amount of insight into how my car is performing if I look at the data
+              in the right ways.
             </article>
+            <h3>My Hardware</h3>
+            <article>
+              Thankfully, buying electronics as components are not that expensive, so
+              I think I will get by without spending more than $50 on the project.
+              So far, this is the list of parts that I have gotten for the project:
+              <ul>
+                <li>Raspberry Pi (I used a model B rev 2.0)</li>
+                <li>16 GB SD Card</li>
+                <li>USB Bluetooth 2.1 Adapter (Asus Model USB-BT211)</li>
+                <li>USB Wireless N Adapter (Trendnet Model TEW-648UBM)</li>
+                <li>FreedomPop Wireless 4G Hotspot</li>
+                <li>Bluetooth OBD Car Adapter (
+                  <a href="http://www.amazon.com/gp/product/B00PJPHEBO">Model I Got</a>
+                  )
+                </li>
+                <li>DS3231 RTC Module (
+                  <a href="http://www.amazon.com/gp/product/B00N9VM712">Model I Got</a>
+                  )
+                </li>
+                <li>3A Car Switch (
+                  <a href="http://www.mausberrycircuits.com/collections/car-power-supply-switches/products/3a-car-supply-switch">
+                    Model I Got</a>
+                  )
+                </li>
+              </ul>
+              The reason that I am using an RTC module is because the Pi
+              will have an unreliable connection to the internet most of the time.
+              Since I am effectively gathering time series data, the time is going to
+              be pretty important, and the Pi does not have an internal RTC.
+              Installing the RTC module will allow me to have reliable clock data.
+              <br>
+              The 3A car switch is a contraption that I wire to a few of my car's wires
+              so then the switch can power on the Pi when I turn my car on. Also, when
+              I turn my car off, the switch stores some extra power in it to allow
+              the Pi to shutdown properly after the car has been turned off.
+              This is to find a solution to turn the Pi on and off with my car and
+              also handle the software safely.
+              <br>
+              The FreedomPop Wireless hotspot allows my pi to connect to the
+              internet and then sync the data with a server at home when my Pi shuts
+              down. Not to advertise, but the reason why I am using FreedomPop is
+              because I am able to get a free 500MB of wireless data each month. 500MB
+              is more than enough to send a text file to a server.
+            </article>
+            <h3>My Progress</h3>
+            <article>
+              I am slightly following the setup of a similar project, which can be
+              found <a href="https://souvik.me/blog/picard-a-raspberry-pi-based-obd-ii-data-logging-system/">here</a>.
+              <br>
+              Before I say anything more, if you have any questions about what I did to
+              get things working, please send me an email with your questions. I will be
+              glad to help you out!
+              <br>
+              I have gotten the Raspbian distribution loaded onto my Pi and installed the
+              python code from the project that I just mentioned. I then proceeded
+              to configure the wireless card for the FreedomPop, and got the bluetooth
+              drivers installed and got all the needed linux packages installed.
+              <br>
+              Over the last couple weeks, I have been having difficulty with his code working.
+              I initially thought that his code was not designed for my setup. However,
+              after quite a bit of investigation, I found that there was additional setup
+              needed to communicate over bluetooth with the OBD adapter. So, I finally
+              was able to start to get data out of my car!
+              <br>
+              Next up, I had written startup and shutdown scripts to startup and
+              run the scripts automatically, and to shutdown safely. That is how much
+              I have completed so far. Things will probably slow down since school
+              is coming up soon.
+            </article>
+            <h3>What's Next</h3>
+            <article>
+              Now that I have been able to get data out of my car, I am very close
+              to completing the car portion(which is the tougher one) of my project.
+              So things that need to be done next (in order of importance) is:
+              <ul>
+                <li>Wire the Car Switch into my Car and test with my Pi</li>
+                <li>Start consistently collecting data from my car</li>
+                <li>Design the Data Filtering/Analyzing System</li>
+                <li>Create the Shiny App and R Code</li>
+              </ul>
+            </article>
+            <br><br>
           </div>
         </div>
       </div>
