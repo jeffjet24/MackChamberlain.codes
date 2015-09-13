@@ -1,6 +1,6 @@
 .jumbotron{
   height: 500px;
-  background:url('../../images/bookscopy.jpg') no-repeat center center;
+  background:url('../../images/books.jpg') no-repeat center center;
   /* Code to keep the image centered */
   -webkit-background-size: cover;
   -moz-background-size: cover;
